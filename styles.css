@@ -1,0 +1,150 @@
+ :root {
+
+     /* ## Colors */
+
+     /* ### Primary */
+
+     --Dark-cyan: hsl(185, 75%, 39%);
+     --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+     --Dark-grayish-blue: hsl(227, 10%, 46%);
+     /* ### Neutral */
+
+     --Dark-gray: hsl(0, 0%, 59%);
+ }
+
+ /* font adjustments */
+ /* - Font size (name and stats): 18px */
+ /* font used */
+ @font-face {
+     font-family: Kumbh-Sans;
+     src: url(./Assets/fonts/KumbhSans-VariableFont_YOPQ\,wght.ttf);
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-image: url(./Assets/images/bg-pattern-bottom.svg), url(./Assets/images/bg-pattern-top.svg);
+     background-position: 600px 450px, -600px -450px;
+     background-repeat: no-repeat;
+     background-color: var(--Dark-cyan);
+ }
+
+ main {
+     width: 550px;
+     height: 500px;
+     background-color: white;
+     margin: 200px auto;
+     border-radius: 30px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ /* adjusting the top section and its elements */
+ .top-section {
+     width: 100%;
+     height: 33.3%;
+     border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+ }
+
+ .bg-img-div img {
+     width: 100%;
+     height: 100%;
+     border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+ }
+
+ /* adjusting the mid section and its elements */
+ .mid-section {
+     width: 100%;
+     height: 33.3%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 10px;
+     margin-bottom: 30px;
+ }
+
+
+
+ .profile-img-div img {
+     border: 4px solid white;
+     border-radius: 50%;
+ }
+
+ .name-age-div {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 10px;
+ }
+
+ .address-div p,
+ .user-name-div h1,
+ .user-age-div p {
+     font-family: Kumbh-Sans;
+ }
+
+ .user-name-div h1 {
+     font-size: 1.125rem;
+     color: var(--Very-dark-desaturated-blue);
+ }
+
+ .user-age-div p,
+ .address-div p {
+     color: var(--Dark-gray);
+     font-size: 0.9rem;
+     font-weight: bold;
+ }
+
+ hr {
+     border: 0.1px solid var(--Dark-gray);
+     opacity: 40%;
+ }
+
+ /* adjusting the bottom section and its elements */
+ .bottom-section {
+     width: 100%;
+     height: 33.3%;
+     border-bottom-right-radius: 30px;
+     border-bottom-left-radius: 30px;
+     display: flex;
+     flex-direction: row;
+ }
+
+ .follwers-div,
+ .likes-div,
+ .photos-div {
+     width: 30.3%;
+     height: 100%;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 10px;
+     padding-left: 80px;
+ }
+
+ .number-followers-div p,
+ .number-likes-div p,
+ .number-photos-div p {
+     font-family: Kumbh-Sans;
+     font-weight: bolder;
+     font-size: 1.125rem;
+     color: var(--Very-dark-desaturated-blue);
+ }
+
+ .followers-tag-div p,
+ .likes-tag-div p,
+ .photos-tag-div p {
+     color: var(--Dark-gray);
+     font-size: 0.8rem;
+     letter-spacing: 0.1rem;
+     font-weight: bold;
+ }

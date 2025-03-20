@@ -149,3 +149,12 @@
      letter-spacing: 0.1rem;
      font-weight: bold;
  }
+
+ @media (max-width:860px) {
+     body {
+         background-image: url(./Assets/images/bg-pattern-bottom.svg), url(./Assets/images/bg-pattern-top.svg);
+         background-position: 600px 450px, -600px -450px;
+         background-repeat: no-repeat;
+         background-color: var(--Dark-cyan);
+     }
+ }

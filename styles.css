@@ -41,6 +41,7 @@
      border-radius: 30px;
      display: flex;
      flex-direction: column;
+     box-shadow: 5px 5px 20px var(--Very-dark-desaturated-blue);
  }
 
  /* adjusting the top section and its elements */

@@ -28,7 +28,7 @@
 
  body {
      background-image: url(./Assets/images/bg-pattern-bottom.svg), url(./Assets/images/bg-pattern-top.svg);
-      background-position: 1000px 600px, -600px -450px;
+      background-position: top left, bottom right;
      background-repeat: no-repeat;
      background-color: var(--Dark-cyan);
  }

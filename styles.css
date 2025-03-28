@@ -150,11 +150,4 @@
      font-weight: bold;
  }
 
-@media only screen and (max-width:800px) {
-     body {
-         background-image: url(./Assets/images/bg-pattern-bottom.svg), url(./Assets/images/bg-pattern-top.svg);
-         background-position: 400px 450px, -600px -450px;
-         background-repeat: no-repeat;
-         background-color: var(--Dark-cyan);
-     }
- }
+
